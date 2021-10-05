@@ -36,7 +36,6 @@ Scenario: restrict to movies with 'PG' or 'R' ratings
   And I should not see "The Help"
   And I should not see "Chicken Run"
 
-
 Scenario: all ratings selected
   # see assignment
   When I check the following ratings: PG, R, PG-13, G
